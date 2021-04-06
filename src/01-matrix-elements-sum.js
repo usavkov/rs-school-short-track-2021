@@ -17,7 +17,6 @@
 function getMatrixElementsSum(matrix) {
   const rows = matrix.length;
   const cols = matrix[0].length;
-
   let sum = 0;
 
   for (let j = 0; j < cols; j++) {
